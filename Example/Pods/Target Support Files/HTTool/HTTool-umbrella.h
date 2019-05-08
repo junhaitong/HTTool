@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "NSString+TSTime.h"
 
 FOUNDATION_EXPORT double HTToolVersionNumber;
 FOUNDATION_EXPORT const unsigned char HTToolVersionString[];

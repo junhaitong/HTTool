@@ -7,6 +7,7 @@
 //
 
 #import "HTViewController.h"
+#import "NSString+TSTime.h"
 
 @interface HTViewController ()
 
