@@ -12,6 +12,8 @@
 		3933CA4960DF40C492C5EFA5086BE1A1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
 		3C6E89D77745A65DEA8DCD27A30B5111 /* HTTool-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8221E0509B13A9DEC550FA94F1BD1F26 /* HTTool-dummy.m */; };
 		65A905DCB52259A05A4C78FE7007481D /* Pods-HTTool_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 48A688FE753724DB9987A53E86BC20AB /* Pods-HTTool_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6B4004422282BF8000E0E549 /* NSString+TSTime.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B4004402282BF7F00E0E549 /* NSString+TSTime.h */; };
+		6B4004432282BF8000E0E549 /* NSString+TSTime.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B4004412282BF8000E0E549 /* NSString+TSTime.m */; };
 		8907EF8848CF8CD2BFC7C23BD2E3D8B3 /* Pods-HTTool_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F44293B3340977DD11DE0ADE551C11B7 /* Pods-HTTool_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CB7C1E36FF13DF69592ADB39E128CF41 /* HTTool-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 758AB9B9AF7EB713701F5B6F9229B08C /* HTTool-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D15244F42C1D9061F19C8C2EEA87D9E2 /* Pods-HTTool_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F4A38D6E9A1E168BC2385F114D5BA12D /* Pods-HTTool_Example-dummy.m */; };
@@ -48,6 +50,8 @@
 		59276CFC411D1B9FFD0B6387A989313E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6725750FDA1CFB5C3DD25BB6874D3C48 /* Pods-HTTool_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HTTool_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		67C9D3D96CD814516B6CF81DCC792414 /* Pods_HTTool_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HTTool_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B4004402282BF7F00E0E549 /* NSString+TSTime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+TSTime.h"; path = "HTTool/Classes/NSString+TSTime.h"; sourceTree = "<group>"; };
+		6B4004412282BF8000E0E549 /* NSString+TSTime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+TSTime.m"; path = "HTTool/Classes/NSString+TSTime.m"; sourceTree = "<group>"; };
 		6C7D079F1B6D6C0932E76EC0D02ACA08 /* Pods-HTTool_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HTTool_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		758AB9B9AF7EB713701F5B6F9229B08C /* HTTool-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HTTool-umbrella.h"; sourceTree = "<group>"; };
 		774F17ED809173544F4AC20C3508E4FD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -219,6 +223,8 @@
 		FC9DACB58EE3924390DC6F5AF4B00B93 /* HTTool */ = {
 			isa = PBXGroup;
 			children = (
+				6B4004402282BF7F00E0E549 /* NSString+TSTime.h */,
+				6B4004412282BF8000E0E549 /* NSString+TSTime.m */,
 				260BE33EDB4C3DBD36A8C5D31F82BB7D /* ReplaceMe.m */,
 				DADC61AAD564C666C202618B6458CD3E /* Pod */,
 				A1CBE011E4D90DED353D36DF84CCCE0D /* Support Files */,
@@ -234,6 +240,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B4004422282BF8000E0E549 /* NSString+TSTime.h in Headers */,
 				CB7C1E36FF13DF69592ADB39E128CF41 /* HTTool-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -387,6 +394,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3C6E89D77745A65DEA8DCD27A30B5111 /* HTTool-dummy.m in Sources */,
+				6B4004432282BF8000E0E549 /* NSString+TSTime.m in Sources */,
 				2D6BBE39CF5FB120D45AB74C1F74CD06 /* ReplaceMe.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
