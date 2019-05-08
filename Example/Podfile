@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'HTTool_Example' do
+  pod 'HTTool', :path => '../'
+
+  target 'HTTool_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
